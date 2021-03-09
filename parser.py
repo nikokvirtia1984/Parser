@@ -16,7 +16,7 @@ HEADERS = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,imag
                                                                                        'Safari/537.36'}
 
 
-def get_html(url, params=''):  # params- საიტის პარამეტრები.
+def get_html(url, params=''):  # params- საიტის პარამეტრები..
     r = requests.get(url, headers=HEADERS, params=params)
     return r
 
